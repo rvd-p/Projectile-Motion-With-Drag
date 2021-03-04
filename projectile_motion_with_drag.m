@@ -44,7 +44,7 @@ legend('Kinetic Energy', 'Potential Energy', 'Location', 'best')
 
 % Total energy
 subplot(2,2,4)
-plot(t, totalEnergy, 'Color','[0.133 0.0071 0.1804]','LineWidth', 1.75)
+plot(t, totalEnergy, 'Color','k','LineWidth', 1.75)
 L2 = line(t(1), totalEnergy(1),'Color', 'k',...
                                            'Marker', '.','MarkerSize', 20);
 xlabel('Time [s]')
